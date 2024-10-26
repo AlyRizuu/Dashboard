@@ -122,7 +122,7 @@ function renderCalendar(date) {
         const cell = document.createElement('td');
         cell.textContent = dayCounter;
 
-        if (i === 0) cell.style.color = 'red';
+        if (i === 0) cell.style.color = 'white';
         if (dayCounter === new Date().getDate() && month === new Date().getMonth()) {
             cell.classList.add('current-day');
         }

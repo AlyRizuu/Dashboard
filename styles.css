@@ -150,8 +150,8 @@ body {
   width: 40px;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   position: absolute;
-  top: 11px;
-  left: 15px;
+  top: 7px;
+  left: 35px;
   cursor: pointer;
   border-radius: 4px;
 }
@@ -255,6 +255,7 @@ body {
   display: flex;
   width: 40px;
   height: 40px;
+  margin-right: 24px;
   justify-content: center;
   align-items: center;
 }
@@ -369,12 +370,13 @@ body {
   }
   .navbar-brand {
     margin-left: auto;
-    margin-right: 10px;
+    margin-right: -8px;
     padding: 10px;
+    font-size: 22px;
     /* margin-left: 5px !important; */
   }
   .search-bar input {
-    width: 293px !important;
+    width: 262px !important;
     margin-top: 5px;
   }
   .navbar-custom{
@@ -547,7 +549,7 @@ body {
 
 .table td.current-day {
   background-color: #dc3545;
-  color: white;
+  color: white !important;
   border-radius: 50%;
 }
 #calendar-body{
@@ -705,7 +707,7 @@ canvas {
 /* Highlight Current Day in Calendar */
 .current-day {
   background-color: #0d6efd;
-  color: white;
+  color: white !important;
   border-radius: 50%;
 }
 
