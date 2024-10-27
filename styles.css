@@ -354,7 +354,7 @@ body {
 
 @media (max-width: 768px) {
   .page-feature {
-      flex-direction: column;
+      flex-direction: row;
       align-items: flex-start;
   }
   .profile_button {
@@ -571,7 +571,7 @@ canvas {
 /* section styling */
 .site {
   background-color: #E8F1F5;
-  width: 150px;
+  width: 92% !important;
   padding: 10px;
   border-radius: 10px;
   margin-left: 10px !important;
