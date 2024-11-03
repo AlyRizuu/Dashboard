@@ -176,4 +176,4 @@ menuItems.forEach(item => {
     // Add the 'active' class to the clicked menu item
     item.classList.add('active');
   });
-});
+})
